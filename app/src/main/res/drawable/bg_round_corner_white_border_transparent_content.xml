@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="rectangle"
+            android:useLevel="false">
+            <padding
+                android:bottom="0.15dp"
+                android:left="2dp"
+                android:top="0.15dp" />
+
+            <!-- 主内容 -->
+            <solid android:color="@color/translate" />
+
+            <!-- 边框 -->
+            <stroke
+                android:width="0.5dp"
+                android:color="@color/white" />
+            <size
+                android:width="20dp"
+                android:height="20dp" />
+        </shape>
+    </item>
+</selector>
+

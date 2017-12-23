@@ -1,0 +1,16 @@
+package com.mc.uniteroute_refactor_mvp.base.annotation;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+/**
+ * Created by MasterFan on 2015/5/5.
+ * description:
+ */
+@Target(ElementType.TYPE)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface MCFragmentFeature {
+    int layout() default 0;
+}

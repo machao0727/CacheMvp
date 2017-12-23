@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mc.uniteroute_refactor_mvp.ui.MainActivity">
+
+    <Button
+        android:id="@+id/btn_carInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取车辆"/>
+    <TextView
+        android:id="@+id/text_carInfo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <Button
+        android:id="@+id/btn_carModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取车型"/>
+    <TextView
+        android:id="@+id/text_carModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
